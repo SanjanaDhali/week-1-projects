@@ -1,165 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Cozy Corner Bookstore</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cozy Corner Bookstore</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-<header>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">📚 Cozy Corner</div>
 
-<nav class="navbar">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Books</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-<div class="logo">
-<i class="fa-solid fa-book-open"></i>
-Cozy Corner
-</div>
+    <a href="#contact" class="cta-btn">Visit Us</a>
+  </header>
 
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="services.html">Services</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Your Cozy Escape into Books</h1>
+      <p>Discover handpicked stories, timeless classics, and modern reads in a warm, aesthetic bookstore experience.</p>
 
-<a href="contact.html" class="btn">Visit Store</a>
+      <div class="hero-buttons">
+        <a href="#services" class="btn primary">Explore Books</a>
+        <a href="#contact" class="btn secondary">Contact Us</a>
+      </div>
+    </div>
 
-</nav>
+    <div class="hero-img">
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" alt="bookstore" />
+    </div>
+  </section>
 
-</header>
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <h2>What We Offer</h2>
 
-<section class="hero">
+    <div class="service-grid">
+      <div class="card">
+        <h3>📖 Curated Books</h3>
+        <p>Carefully selected fiction, non-fiction, and classics.</p>
+      </div>
 
-<div class="hero-text">
+      <div class="card">
+        <h3>☕ Reading Corner</h3>
+        <p>Relax with books in our cozy in-store reading space.</p>
+      </div>
 
-<h1>Your Favorite Neighborhood Bookstore</h1>
+      <div class="card">
+        <h3>🎁 Gift Collections</h3>
+        <p>Perfect book bundles for every occasion and mood.</p>
+      </div>
 
-<p>
-Discover best-selling novels, academic books,
-children's stories, and cozy reading spaces.
-Find your next great read at Cozy Corner Bookstore.
-</p>
+      <div class="card">
+        <h3>📦 Order Support</h3>
+        <p>Easy ordering and quick book recommendations.</p>
+      </div>
+    </div>
+  </section>
 
-<div class="hero-buttons">
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+      Cozy Corner Bookstore is a warm, community-driven space where readers
+      find comfort, imagination, and inspiration. We believe every book has
+      a home—and every reader has a story.
+    </p>
+  </section>
 
-<a href="services.html" class="btn">
-Explore Books
-</a>
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
 
-<a href="contact.html" class="btn-outline">
-Contact Us
-</a>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="tel" placeholder="Phone Number" required />
 
-</div>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
 
-</div>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-<div class="hero-image">
-<img src="images/hero.png"
-alt="Bookstore Interior">
-</div>
-
-</section>
-
-<section class="features">
-
-<h2>Why Readers Love Us</h2>
-
-<div class="cards">
-
-<div class="card">
-
-<i class="fa-solid fa-book"></i>
-
-<h3>10,000+ Books</h3>
-
-<p>
-Explore a wide collection of fiction,
-non-fiction, academic, and children's books.
-</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-mug-hot"></i>
-
-<h3>Reading Corner</h3>
-
-<p>
-Enjoy a calm and cozy atmosphere designed
-for book lovers and readers.
-</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-truck-fast"></i>
-
-<h3>Fast Delivery</h3>
-
-<p>
-Get your favorite books delivered
-quickly and safely to your doorstep.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="cta-section">
-
-<h2>Find Your Next Favorite Book Today</h2>
-
-<p>
-Visit our bookstore and explore thousands
-of books waiting for you.
-</p>
-
-<a href="contact.html" class="btn">
-Get Started
-</a>
-
-</section>
-
-<footer>
-
-<div class="footer-content">
-
-<h3>Cozy Corner Bookstore</h3>
-
-<p>
-Books, Coffee, Community, and Comfort.
-</p>
-
-<div class="social-icons">
-
-<i class="fa-brands fa-facebook"></i>
-
-<i class="fa-brands fa-instagram"></i>
-
-<i class="fa-brands fa-x-twitter"></i>
-
-</div>
-
-</div>
-
-<p class="copyright">
-© 2026 Cozy Corner Bookstore. All Rights Reserved.
-</p>
-
-</footer>
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Cozy Corner Bookstore | Made with books & calm chaos</p>
+  </footer>
 
 </body>
 </html>
